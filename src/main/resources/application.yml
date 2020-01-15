@@ -1,0 +1,58 @@
+---
+attributes:
+  -
+    name: messageCode
+    type: java.lang.String
+  -
+    name: inputMode
+    type: java.lang.String
+  -
+    name: traceId
+    type: java.lang.String
+  -
+    name: processingCode
+    type: java.lang.String
+  -
+    name: terminal
+    type: java.lang.Object
+    subObject:
+      -
+        name: id
+        type: java.lang.Object
+        subObject:
+          -
+            name: teste
+            type: java.lang.Object
+            subObject:
+              -
+                name: teste_quarto
+                type: java.lang.Object
+                subObject:
+                  -
+                    name: teste_quinto
+                    type: java.lang.String
+      -
+        name: terminalType
+        type: java.lang.String
+      -
+        name: transactionId
+        type: java.lang.String
+      -
+        name: transactionTimestamp
+        type: java.lang.String
+      -
+        name: establishmentId
+        type: java.lang.String
+  -
+    name: card
+    type: java.lang.Object
+    subObject:
+      -
+        name: card_teste
+        type: java.lang.String
+  -
+    name: authorizer
+    type: java.lang.String
+  -
+    name: sender
+    type: java.lang.String
